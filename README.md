@@ -22,21 +22,21 @@ and run the application:
 <br /> 
 
 # About this work: 
-This work was develop using a dataset retrieved from:
+This work was developed using a dataset retrieved from:
 
 https://www.kaggle.com/augustop/portuguese-tweets-for-sentiment-analysis
 
-The dataset, used to train the machine learning models, have 100k tweets divided into positive (50%) and negative 
+The dataset used to train the machine learning models have 100k tweets divided into positive (50%) and negative
 sentiment (50%). The tweets, without any theme, was collected during Aug/2018 to Oct/2018.
 
 5 machine learning models were tested:
-- Logistic regression: the simplest model tested to have a baseline and understand how much we improved from it
+- Logistic regression: the simplest model tested to have a baseline and understand how much we improved from it.
 - MultinomialNB: learning algorithm based on applying Bayes’ theorem with the “naive” assumption of conditional 
 independence between every pair of features given the value of the class variable. This Naive Bayes implementation 
 is broadly used in text classification.
-- Random forest: ensemble model of decision trees used to classify data
-- Random forest with hyperparameters optimization: grid search experiment to to optimize the random forest model
-- Ensemble model with Multinomial NB, Random forest, and Random forest optimized combined with the hard voting technique:
+- Random forest: ensemble model of decision trees used to classify data.
+- Random forest with hyperparameters optimization: grid search experiment to to optimize the random forest model.
+- Ensemble model with Multinomial NB, Random forest, and optimized Random forest combined with the hard voting technique:
 the model predicts class labels using the majority rule voting.
 
 In our case, a false positive/negative is equally bad and for this reason, we choose to optimize f1-score. 
