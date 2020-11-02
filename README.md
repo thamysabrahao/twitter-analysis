@@ -7,7 +7,7 @@ or negative sentiment.
 To use this app you need to have access to Twitter API. To know more about this, please visit:
 https://developer.twitter.com/en/docs/authentication/guides/authentication-best-practices
 
-You can test locally this application by running:
+You can test locally this application by cloning this repository, access the path were you place it and run:
 
 `pip install -r requirements.txt`
 
